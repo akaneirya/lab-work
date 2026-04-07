@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+	int a;
+	
+	printf("enter a and b: ");
+	scanf("%d,&a");
+	
+	if(a>= 0){
+		if (a== 0){
+			printf("number is nutral");
+			}else{
+				printf("number is positive");
+		} 
+	}
+	else{
+		printf("number is negetive");
+	}
+}
