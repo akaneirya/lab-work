@@ -1,8 +1,10 @@
 #include<stdio.h>
 
 int main()
+{ 
+int i;
+for(i = 100; i>3; i-=3)
 {
-	for(char ch = 'a' ;ch <='z' ; ch++){
-		printf("%c ",ch);
-	}
-}
+printf("%d ", i);
+   }
+   }
